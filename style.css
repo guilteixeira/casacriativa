@@ -75,7 +75,7 @@ button.fat:hover{
 }
 
 #modal.hide {
-  display: none;
+display: none;
 }
 
 a {
@@ -197,6 +197,32 @@ form label {
     letter-spacing: 0.8px;
 }
 
+form a {
+  font-size: 14px;
+  font-weight: bold;
+  background: #e9e0e038;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: end;
+
+  width: 150px;
+  height: 40px;
+
+  border-radius: 6px;
+
+  transition: 400ms;
+}
+
+form a:hover {
+  background-color: white;
+  color: #ff5e84;
+
+  text-decoration: none;
+}
+
 form button {
   background: white;
 
@@ -213,7 +239,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #282828aa;
+  background-color: #ffffffaa;
   color: white;
 
   text-decoration: none;
